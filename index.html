@@ -37,6 +37,13 @@
 		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		  crossorigin="anonymous">
 	</script>
+	<script type="text/javascript" src="lib/turingmachine.js"></script>
 	<script type="text/javascript" src="lib/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			turingMachine.init();
+			runner.run();	
+		});
+	</script>
 </body>
 </html>
